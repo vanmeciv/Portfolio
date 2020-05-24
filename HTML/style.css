@@ -700,6 +700,10 @@ p.bold {
   right: 0;
   top: 0;
   z-index: 1;
+  style="top: -104.667px;
+  display: block;
+  width: 600px;
+  height: 600px
 }
 
 .timerWrapper {
