@@ -752,7 +752,8 @@ p.bold {
   background: transparent url('img/gradient.png') bottom right repeat-y;
   bottom: 0;
   height: 500px;
-  right: 0;
+  right: 270px;
+  left: 183.604px;
   position: absolute;
   width: 500px;
   -moz-background-size: 100% 100%;
