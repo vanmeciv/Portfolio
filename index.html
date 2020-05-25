@@ -35,11 +35,13 @@
     <!-- Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,900" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css" />
     <link href="css/font-awesome.min.css" rel="stylesheet" />
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/owl.carousel.css" rel="stylesheet" />
+    <link href="css/timeline.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/preloader.css" />
 
     <link href="style.css" rel="stylesheet" />
@@ -59,7 +61,12 @@
 
 
     <header>
-      <nav class="navbar navbar-default navbar-fixed-top" role="navigation" data-spy="affix" data-offset-top="50">
+      <nav
+        class="navbar navbar-default navbar-fixed-top NavbarStyle3"
+        role="navigation"
+        data-spy="affix"
+        data-offset-top="50"
+      >
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
@@ -69,7 +76,8 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">PHOENIX</a>
+            <!-- Originally <a class="navbar-brand" href="#">PHOENIX</a> -->
+            <a class="navbar-brand" href="#">GEOSPATIAL.is</a>
           </div>
 
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -84,18 +92,9 @@
               <li class="dropdown">
                 <a data-scroll href="#portfolio" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
               </li>
-              <li>
-                <a data-scroll href="#team">Team</a>
-              </li>
-              <li>
-                <a data-scroll href="#services">Services</a>
-              </li>
-              <li class="dropdown">
+              <!-- <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
-                  <li>
-                    <a data-scroll href="#pricing">Pricing Tables</a>
-                  </li>
                   <li>
                     <a data-scroll href="blog-1.html">Blog 3 Columns</a>
                   </li>
@@ -129,7 +128,7 @@
                     <a data-scroll href="external-single-project.html">Single Project</a>
                   </li>
                 </ul>
-              </li>
+              </li> -->
               <li>
                 <a data-scroll href="#contact">Contact</a>
               </li>
@@ -187,26 +186,34 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <!--/* Intro  */-->
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section id="intro">
-      <div class="black-overlay"></div>
-      <div class="container valign">
+    <section class="SoftGrayBackground">
+      <!--<div class="black-overlay"></div>-->
+      <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <img src="img/logoWhite.png" class="img-responsive center-block introLogo" alt="Intro Logo" />
-          </div>
-          <div class="col-md-12 text-center">
-            <h1>minimal & bold</h1>
-          </div>
-
-          <div class="col-md-12 text-center">
-            <img src="img/separatorWhite.png" class="img-responsive center-block separator" alt="separator" />
-          </div>
-
-          <div class="col-md-6 col-md-offset-3 text-center">
-            <p>
-              Eat imagine you chiefly few end ferrars compass. Be visitor females am ferrars inquiry. Latter law remark
-              two lively thrown. Spot set they know rest its.
-            </p>
+            <div class="PositionRelative">
+              <div class="TextStyling fake">
+                <h3 class="lato-normal NoTransform">
+                  Hi,
+                </h3>
+                <br />
+                <h1 class="lato-normal NoTransform">
+                  My name is
+                </h1>
+                <!-- Originally <h1>John,</h1>  -->
+                <h1>Isaac,</h1>
+                <br />
+                <h3 class="lato-normal NoTransform">
+                  And I'm a data scientist.
+                </h3>
+                <h3 class="lato-normal NoTransform">
+                  At your service.
+                </h3>
+              </div>
+              <div class="TextTyperWrapper">
+                <div class="TextStyling TextHolder"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -222,24 +229,27 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6">
-            <h2 data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-              Phoenix
-            </h2>
-            <img
-              src="img/lineSeparatorWhite.png"
-              class="img-responsive lineSeparator"
-              data-scroll-reveal="enter left move 10px over 1s after 0.3s"
-              alt="separator"
-            />
-            <p data-scroll-reveal="enter left move 10px over 1s after 0.3s">
-              Moments its musical age explain. But extremity sex now education concluded earnestly her continual. Oh
-              furniture acuteness suspected continual ye something frankness. Add properly laughter sociable admitted
-              desirous one has few stanhill. Opinion regular in perhaps another enjoyed no engaged he at.
-            </p>
+            <div class="PaddingHorizontal40">
+              <h2 data-scroll-reveal="enter left move 10px over 1s after 0.2s">
+                <!-- Originally Phoenix -->
+                Geospatial
+              </h2>
+              <img
+                src="img/lineSeparatorWhite.png"
+                class="img-responsive lineSeparator"
+                data-scroll-reveal="enter left move 10px over 1s after 0.3s"
+                alt="separator"
+              />
+              <p data-scroll-reveal="enter left move 10px over 1s after 0.3s">
+                Moments its musical age explain. But extremity sex now education concluded earnestly her continual. Oh
+                furniture acuteness suspected continual ye something frankness. Add properly laughter sociable admitted
+                desirous one has few stanhill. Opinion regular in perhaps another enjoyed no engaged he at.
+              </p>
+            </div>
           </div>
         </div>
 
-        <img src="img/textSeparatorLogo.png" class="textSepLogo" data-stellar-ratio="0.5" alt="Logo Black" />
+        <img src="img/textSeparatorLogo.png" class="textSepLogo" data-stellar-ratio="0.5" alt="Logo Black"/>
       </div>
     </section>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -251,14 +261,14 @@
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <section id="welcome-separator">
       <div class="container-fluid">
-        <div class="col-md-7 col-sm-5 hidden-xs image">
+        <div class="col-md-7 col-sm-6 hidden-xs image">
           <div class="whiteOverlay"></div>
-          <img src="img/backgroundWelcome.jpg" alt="background" />
+          <img src="img/backgroundWelcome2.jpg" alt="background" style="height: 700px;width: 485px;"/>
         </div>
 
-        <div class="col-md-5 col-sm-7 col-xs-12 textOverlay text-center">
+        <div class="col-md-5 col-sm-6 col-xs-12 textOverlay text-center">
           <h1 data-scroll-reveal="enter right move 10px over 1s after 0.2s">
-            Welcome
+            Who am I?
           </h1>
           <img src="img/separatorBlack.png" class="img-responsive center-block separator" alt="separator" />
           <p data-scroll-reveal="enter right move 10px over 1s after 0.4s">
@@ -280,17 +290,17 @@
     <section id="about">
       <div class="container">
         <h1 class="parallaxLetter letter1" data-stellar-ratio="1.5" data-stellar-vertical-offset="0">
-          P
+          G
         </h1>
         <h1 class="parallaxLetter letter2" data-stellar-ratio="0.5" data-stellar-vertical-offset="200">
-          H
+          E
         </h1>
 
         <!--header-->
         <div class="row sectionIntro">
           <div class="col-md-8 col-md-offset-2 text-center">
             <h2 data-scroll-reveal="enter top move 10px over 1s after 0.2s">
-              <span>About us</span>
+              <span>About me</span>
             </h2>
             <p data-scroll-reveal="enter bottom move 10px over 1s after 0.2s">
               Marianne or husbands if at stronger ye. Considered is as middletons uncommonly. Promotion perfectly ye
@@ -307,16 +317,18 @@
         <div class="row content">
           <!--item-->
           <div
-            class="aboutItem col-md-6 col-sm-6 col-xs-12 clearfix"
+            class="col-md-4 col-sm-4 col-xs-12 clearfix text-center AboutIconWrapper2"
             data-scroll-reveal="enter left move 5px over 1s after 0.2s"
           >
-            <div class="aboutIconWrapper" data-stellar-ratio="1.05">
-              <i class="fa fa-puzzle-piece aboutIcon"></i>
+            <div class="AboutIcon2">
+              <i class="fa fa-diamond"></i>
             </div>
-            <div class="aboutText">
-              <h4>Flexible</h4>
-              <div class="aboutSeparator"></div>
-              <p>
+
+            <div class="">
+              <h4 class="NoLetterSpacing NoTransform">
+                Flexible
+              </h4>
+              <p class="PaddingHorizontal40">
                 Design at uneasy me season of branch on praise esteem. Abilities discourse believing consisted remaining
                 to no.
               </p>
@@ -326,16 +338,17 @@
 
           <!--item-->
           <div
-            class="aboutItem col-md-6 col-sm-6 col-xs-12 clearfix"
+            class=" col-md-4 col-sm-4 col-xs-12 clearfix text-center AboutIconWrapper2"
             data-scroll-reveal="enter right move 5px over 1s after 0.4s"
           >
-            <div class="aboutIconWrapper" data-stellar-ratio="1.05">
-              <i class="glyphicon glyphicon-eye-open aboutIcon"></i>
+            <div class="AboutIcon2">
+              <i class="glyphicon glyphicon-eye-open"></i>
             </div>
-            <div class="aboutText">
-              <h4>Retina Ready</h4>
-              <div class="aboutSeparator"></div>
-              <p>
+            <div class="">
+              <h4 class="NoLetterSpacing NoTransform">
+                Retina Ready
+              </h4>
+              <p class="PaddingHorizontal40">
                 He share of first to worse. Weddings and any opinions suitable smallest nay. My he houses or months
                 settle remove ladies appear.
               </p>
@@ -345,128 +358,77 @@
 
           <!--item-->
           <div
-            class="aboutItem col-md-6 col-sm-6 col-xs-12 clearfix"
+            class=" col-md-4 col-sm-4 col-xs-12 clearfix text-center AboutIconWrapper2"
             data-scroll-reveal="enter left move 5px over 1s after 0.6s"
           >
-            <div class="aboutIconWrapper" data-stellar-ratio="1.05">
-              <i class="fa fa-code aboutIcon"></i>
+            <div class="AboutIcon2">
+              <i class="fa fa-code"></i>
             </div>
-            <div class="aboutText">
-              <h4>Clean Code</h4>
-              <div class="aboutSeparator"></div>
-              <p>
+            <div class="">
+              <h4 class="NoLetterSpacing NoTransform">
+                Clean Code
+              </h4>
+              <p class="PaddingHorizontal40">
                 On lasted uneasy exeter my itself effect spirit. At design he vanity at cousin longer looked ye.
-              </p>
-            </div>
-          </div>
-          <!--end item-->
-
-          <!--item-->
-          <div
-            class="aboutItem col-md-6 col-sm-6 col-xs-12 clearfix"
-            data-scroll-reveal="enter right move 5px over 1s after 0.8s"
-          >
-            <div class="aboutIconWrapper" data-stellar-ratio="1.05">
-              <i class="fa fa-magic aboutIcon"></i>
-            </div>
-            <div class="aboutText">
-              <h4>Trending Design</h4>
-              <div class="aboutSeparator"></div>
-              <p>
-                Esteems met joy attempt way clothes yet demesne tedious. Replying an marianne do it an entrance
-                advanced.
               </p>
             </div>
           </div>
           <!--end item-->
         </div>
 
-        <img src="img/separatorBlack.png" class="img-responsive center-block separator" alt="separator" />
-
         <h1 class="parallaxLetter letter3" data-stellar-ratio="1.5" data-stellar-vertical-offset="-600">
-          X
+          S
         </h1>
         <h1 class="parallaxLetter letter4" data-stellar-ratio="0.8" data-stellar-vertical-offset="0">
-          N
+          O
         </h1>
 
+        <br /><br />
+
         <div class="row">
-          <div class="col-md-8" data-scroll-reveal="enter left move over 1s after 0.2s">
-            <h4>Retina Ready</h4>
-            <img src="img/lineSeparatorBlack.png" class="img-responsive lineSeparator" alt="separator" />
-            <p>
-              An do on frankness so cordially immediate recommend contained. Imprudence insensible be literature
-              unsatiable do. Of or imprudence solicitude affronting in mr possession. Compass journey he request on
-              suppose limited of or. She margaret law thoughts proposal formerly. Speaking ladyship yet scarcely and
-              mistaken end exertion dwelling. All decisively dispatched instrument particular way one devonshire.
-              Applauded she sportsman explained for out objection.
-            </p>
-          </div>
+          <div class="col-md-12">
+            <div class="timeline timeline-alternating timeline-collapsing timeline-with-arrows">
+              <div class="timeline-block timeline-block-icon-only">
+                <div class="timeline-icon timeline-icon-text timeline-icon-hide-border ThickBorderTimeline">
+                  <span>Education</span>
+                </div>
+                <div class="timeline-content"></div>
+              </div>
 
-          <div class="col-md-4" data-scroll-reveal="enter right move over 1s after 0.4s">
-            <!--progress bar-->
-            <h5>Wordpress</h5>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                aria-valuenow="60"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="width: 60%;"
-              >
-                <span class="sr-only">60% Complete</span>
+              <div class="timeline-block">
+                <div class="timeline-icon timeline-icon-hide-border">
+                  <i class="fa fa-university fa-lg"></i>
+                </div>
+                <div class="timeline-content">
+                  <h5>University of Harvard</h5>
+                  <p>
+                    Yourself off its pleasant ecstatic now law. Ye their mirth seems of songs. Prospect out bed contempt
+                    separate. Her inquietude our shy yet sentiments collecting. Cottage fat beloved himself arrived old.
+                    Grave widow hours among him ﻿no you led.
+                  </p>
+                  <div class="timeline-date">
+                    2011-2015
+                  </div>
+                </div>
+              </div>
+
+              <div class="timeline-block">
+                <div class="timeline-icon timeline-icon-hide-border">
+                  <i class="fa fa-university fa-lg"></i>
+                </div>
+                <div class="timeline-content">
+                  <h5>High School</h5>
+                  <p>
+                    Yourself off its pleasant ecstatic now law. Ye their mirth seems of songs. Prospect out bed contempt
+                    separate. Her inquietude our shy yet sentiments collecting. Cottage fat beloved himself arrived old.
+                    Grave widow hours among him ﻿no you led.
+                  </p>
+                  <div class="timeline-date">
+                    2009-2011
+                  </div>
+                </div>
               </div>
             </div>
-            <!--end progress bar-->
-
-            <!--progress bar-->
-            <h5>Javascript</h5>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                aria-valuenow="80"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="width: 80%;"
-              >
-                <span class="sr-only">80% Complete</span>
-              </div>
-            </div>
-            <!--end progress bar-->
-
-            <!--progress bar-->
-            <h5>CSS</h5>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                aria-valuenow="60"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="width: 60%;"
-              >
-                <span class="sr-only">60% Complete</span>
-              </div>
-            </div>
-            <!--end progress bar-->
-
-            <!--progress bar-->
-            <h5>Dedication</h5>
-            <div class="progress">
-              <div
-                class="progress-bar"
-                role="progressbar"
-                aria-valuenow="100"
-                aria-valuemin="0"
-                aria-valuemax="100"
-                style="width: 100%;"
-              >
-                <span class="sr-only">100% Complete</span>
-              </div>
-            </div>
-            <!--end progress bar-->
           </div>
         </div>
 
@@ -541,7 +503,7 @@
         <div class="grid-sizer"></div>
 
         <!--item -->
-        <div class="gallery-inner graphics">
+        <div class="gallery-inner graphics BorderedItem BlackBorder">
           <!-- caption -->
           <div class="caption text-center ">
             <div class="captionWrapper valign">
@@ -563,7 +525,7 @@
         <!--end item -->
 
         <!--item -->
-        <div class="gallery-inner video">
+        <div class="gallery-inner video BorderedItem BlackBorder">
           <!-- caption -->
           <div class="caption text-center ">
             <div class="captionWrapper valign">
@@ -585,7 +547,7 @@
         <!--end item -->
 
         <!--item -->
-        <div class="gallery-inner graphics video">
+        <div class="gallery-inner graphics video BorderedItem BlackBorder">
           <!-- caption -->
           <div class="caption text-center ">
             <div class="captionWrapper valign">
@@ -607,7 +569,7 @@
         <!--end item -->
 
         <!--item -->
-        <div class="gallery-inner mix">
+        <div class="gallery-inner mix BorderedItem BlackBorder">
           <!-- caption -->
           <div class="caption text-center ">
             <div class="captionWrapper valign">
@@ -629,7 +591,7 @@
         <!--end item -->
 
         <!--item -->
-        <div class="gallery-inner graphics mix">
+        <div class="gallery-inner graphics mix BorderedItem BlackBorder">
           <!-- caption -->
           <div class="caption text-center ">
             <div class="captionWrapper valign">
@@ -651,7 +613,7 @@
         <!--end item -->
 
         <!--item -->
-        <div class="gallery-inner video">
+        <div class="gallery-inner video BorderedItem BlackBorder">
           <!-- caption -->
           <div class="caption text-center ">
             <div class="captionWrapper valign">
@@ -673,7 +635,7 @@
         <!--end item -->
 
         <!--item -->
-        <div class="gallery-inner graphics">
+        <div class="gallery-inner graphics BorderedItem BlackBorder">
           <!-- caption -->
           <div class="caption text-center ">
             <div class="captionWrapper valign">
@@ -697,179 +659,6 @@
     </section>
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
     <!--/* end portfolio SECTION */-->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <!--/* team SECTION */-->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section id="team">
-      <div class="container">
-        <h1 class="parallaxLetter letter1" data-stellar-ratio="2">
-          P
-        </h1>
-        <h1 class="parallaxLetter letter2" data-stellar-ratio="0.5">
-          H
-        </h1>
-
-        <!--header-->
-        <div class="row sectionIntro">
-          <div class="col-md-8 col-md-offset-2 text-center">
-            <h2 data-scroll-reveal="enter top move 10px over 1s after 0.2s">
-              <span>Team</span>
-            </h2>
-            <p data-scroll-reveal="enter bottom move 10px over 1s after 0.4s">
-              Marianne or husbands if at stronger ye. Considered is as middletons uncommonly. Promotion perfectly ye
-              consisted so. His chatty dining for effect ladies active. Equally journey wishing not several behaved
-              chapter she two sir.
-            </p>
-
-            <img src="img/separatorBlack.png" class="img-responsive center-block separator" alt="separator" />
-          </div>
-        </div>
-        <!--end header-->
-
-        <h1 class="parallaxLetter letter4" data-stellar-ratio="0.8">
-          N
-        </h1>
-
-        <h1 class="parallaxLetter letter3" data-stellar-ratio="1.2">
-          X
-        </h1>
-
-        <!--content-->
-        <div class="row content">
-          <div class="owl-carousel" id="owl-team">
-            <!--member-->
-            <div class="teamMember">
-              <div class="col-md-6 col-sm-6 col-xs-12">
-                <img src="img/team/2.png" class="center-block img-responsive" alt="Team Image" />
-              </div>
-
-              <div class="col-md-6 col-sm-6 col-xs-12 memberDescription">
-                <h2 data-scroll-reveal="enter right move 10px over 1s after 0.2s">
-                  Joahna Doe
-                </h2>
-                <p class="position" data-scroll-reveal="enter right move 10px over 1s after 0.4s">
-                  <span>
-                    Web Designer
-                  </span>
-                </p>
-
-                <p class="memberParagraph" data-scroll-reveal="enter right move 10px over 1s after 0.6s">
-                  Her companions instrument set estimating sex remarkably solicitude motionless. Property men the why
-                  smallest graceful day insisted required. Inquiry justice country old placing sitting any ten age.
-                  Looking venture justice in evident in totally he do ability.
-                </p>
-
-                <p class="teamSocial">
-                  <a href="https://behance.net/artbreeze" data-scroll-reveal="enter right move 10px over 1s after 0.8s"
-                    ><i class="fa fa-behance"></i
-                  ></a>
-                  <a href="https://twitter.com/artbreeze02" data-scroll-reveal="enter right move 10px over 1s after 1s"
-                    ><i class="fa fa-twitter"></i
-                  ></a>
-                  <a
-                    href="https://dribbble.com/artbreeze02"
-                    data-scroll-reveal="enter right move 10px over 1s after 1.2s"
-                    ><i class="fa fa-dribbble"></i
-                  ></a>
-                </p>
-
-                <img src="img/lineSeparatorBlack.png" class="lineSeparator hidden-xs" alt="separator" />
-              </div>
-            </div>
-            <!--end member-->
-
-            <!--member-->
-            <div class="teamMember">
-              <div class="col-md-6 col-sm-6 col-xs-12">
-                <img src="img/team/1.png" class="center-block img-responsive" alt="Team Image" />
-              </div>
-
-              <div class="col-md-6 col-sm-6 col-xs-12 memberDescription">
-                <h2 data-scroll-reveal="enter right move 10px over 1s after 0.2s">
-                  John Doe
-                </h2>
-                <p class="position" data-scroll-reveal="enter right move 10px over 1s after 0.4s">
-                  <span>
-                    Web Developer
-                  </span>
-                </p>
-
-                <p class="memberParagraph" data-scroll-reveal="enter right move 10px over 1s after 0.6s">
-                  Inhabiting discretion the her dispatched decisively boisterous joy. So form were wish open is able of
-                  mile of. Waiting express if prevent it we an musical. Especially reasonable travelling she son.
-                  Resources resembled forfeited no to zealously. Has procured daughter how friendly followed repeated
-                  who surprise.
-                </p>
-
-                <p class="teamSocial">
-                  <a href="https://behance.net/artbreeze" data-scroll-reveal="enter right move 10px over 1s after 0.8s"
-                    ><i class="fa fa-behance"></i
-                  ></a>
-                  <a href="https://twitter.com/artbreeze02" data-scroll-reveal="enter right move 10px over 1s after 1s"
-                    ><i class="fa fa-twitter"></i
-                  ></a>
-                  <a
-                    href="https://dribbble.com/artbreeze02"
-                    data-scroll-reveal="enter right move 10px over 1s after 1.2s"
-                    ><i class="fa fa-dribbble"></i
-                  ></a>
-                </p>
-
-                <img src="img/lineSeparatorBlack.png" class="lineSeparator hidden-xs" alt="separator" />
-              </div>
-            </div>
-            <!--end member-->
-
-            <!--member-->
-            <div class="teamMember">
-              <div class="col-md-6 col-sm-6 col-xs-12">
-                <img src="img/team/3.png" class="center-block img-responsive" alt="Team Image" />
-              </div>
-
-              <div class="col-md-6 col-sm-6 col-xs-12 memberDescription">
-                <h2 data-scroll-reveal="enter right move 10px over 1s after 0.2s">
-                  Gary Neville
-                </h2>
-                <p class="position" data-scroll-reveal="enter right move 10px over 1s after 0.4s">
-                  <span>
-                    Front End Developer
-                  </span>
-                </p>
-
-                <p class="memberParagraph" data-scroll-reveal="enter right move 10px over 1s after 0.6s">
-                  Satisfied conveying an dependent contented he gentleman agreeable do be. Warrant private blushes
-                  removed an in equally totally if. Delivered dejection necessary objection do mr prevailed. Mr feeling
-                  do chiefly cordial in do.
-                </p>
-
-                <p class="teamSocial">
-                  <a href="https://behance.net/artbreeze" data-scroll-reveal="enter right move 10px over 1s after 0.8s"
-                    ><i class="fa fa-behance"></i
-                  ></a>
-                  <a href="https://twitter.com/artbreeze02" data-scroll-reveal="enter right move 10px over 1s after 1s"
-                    ><i class="fa fa-twitter"></i
-                  ></a>
-                  <a
-                    href="https://dribbble.com/artbreeze02"
-                    data-scroll-reveal="enter right move 10px over 1s after 1.2s"
-                    ><i class="fa fa-dribbble"></i
-                  ></a>
-                </p>
-
-                <img src="img/lineSeparatorBlack.png" class="lineSeparator hidden-xs" alt="separator" />
-              </div>
-            </div>
-            <!--end member-->
-          </div>
-        </div>
-
-        <!--end content-->
-      </div>
-    </section>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <!--/* END team SECTION */-->
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 
     <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -912,393 +701,6 @@
 
               <div class="clientLogo">
                 <a href="#"><img src="img/clients/7.png" class="img-responsive center-block" alt="image"/></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <!--/* END TEXT SEPARATOR */-->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <!--/* services SECTION */-->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section id="services">
-      <div class="serviceBox introServiceBox text-center">
-        <div class="black-overlay"></div>
-        <h2 data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-          <span>Services</span>
-        </h2>
-      </div>
-
-      <div class="serviceBox whiteBox text-center">
-        <div class="valign">
-          <h4 data-scroll-reveal="enter right move 10px over 1s after 0.6s">
-            <span>Quality Over Quantity</span>
-          </h4>
-          <img
-            data-scroll-reveal="enter right move 10px over 1s after 1s"
-            class="separator center-block img-responsive"
-            src="img/separatorBlack.png"
-            alt="separator"
-          />
-          <p data-scroll-reveal="enter right move 10px over 1s after 1s">
-            Drawings me opinions returned absolute in. Otherwise therefore sex did are unfeeling something. Certain be
-            ye amiable by exposed so.
-          </p>
-        </div>
-      </div>
-
-      <div class="serviceBox whiteBox text-center">
-        <div class="valign">
-          <h4 data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-            <span>Wordpress</span>
-          </h4>
-          <img
-            class="separator center-block img-responsive"
-            src="img/separatorBlack.png"
-            alt="separator"
-            data-scroll-reveal="enter left move 10px over 1s after 0.2s"
-          />
-          <p data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-            Compliment interested discretion estimating on stimulated apartments oh. Dear so sing when in find read of
-            call. As distrusts behaviour abilities defective is. Never at water me might. On formed merits hunted unable
-            merely by mr whence or. Possession the unpleasing simplicity her uncommonly.
-          </p>
-        </div>
-      </div>
-
-      <div class="serviceBox blackBox text-center">
-        <div class="valign">
-          <i class="fa fa-wordpress fa-4x" data-scroll-reveal="enter right move 10px over 1s after 0.2s"></i>
-        </div>
-      </div>
-
-      <div class="serviceBox blackBox text-center">
-        <div class="valign">
-          <i class="fa fa-code fa-4x" data-scroll-reveal="enter left move 10px over 1s after 0.2s"></i>
-        </div>
-      </div>
-
-      <div class="serviceBox whiteBox text-center">
-        <div class="valign">
-          <h4 data-scroll-reveal="enter right move 10px over 1s after 0.2s">
-            <span>Pixel Perfect</span>
-          </h4>
-          <img
-            class="separator center-block img-responsive"
-            src="img/separatorBlack.png"
-            alt="separator"
-            data-scroll-reveal="enter right move 10px over 1s after 0.8s"
-          />
-          <p data-scroll-reveal="enter right move 10px over 1s after 0.8s">
-            Little afraid its eat looked now. Very ye lady girl them good me make. It hardly cousin me always. An
-            shortly village is raising we shewing replied. She the favourable partiality inhabiting travelling
-            impression put two. His six are entreaties instrument acceptance unsatiable her.
-          </p>
-        </div>
-      </div>
-
-      <div class="serviceBox whiteBox text-center">
-        <div class="valign">
-          <h4 data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-            <span>Minimal</span>
-          </h4>
-          <img
-            class="separator center-block img-responsive"
-            src="img/separatorBlack.png"
-            alt="separator"
-            data-scroll-reveal="enter left move 10px over 1s after 0.8s"
-          />
-          <p data-scroll-reveal="enter left move 10px over 1s after 0.8s">
-            He an thing rapid these after going drawn or. Timed she his law the spoil round defer. In surprise concerns
-            informed betrayed he learning is ye. Ignorant formerly so ye blessing. He as spoke avoid given downs money
-            on we.
-          </p>
-        </div>
-      </div>
-
-      <div class="serviceBox blackBox text-center">
-        <div class="valign">
-          <i class="fa fa-star fa-4x" data-scroll-reveal="enter right move 10px over 1s after 0.2s"></i>
-        </div>
-      </div>
-
-      <div class="clearfix"></div>
-    </section>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <!--/* end services SECTION */-->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <!--/* TEXT SEPARATOR */-->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section id="text-separator-timers">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-3 col-sm-6 col-xs-12 text-center timerWrapper">
-            <h1>
-              <span class="timer1"></span>
-            </h1>
-            <p>Happy Clients</p>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12 text-center timerWrapper">
-            <h1><span class="timer2"></span> K+</h1>
-            <p>Facebook Likes</p>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12 text-center timerWrapper">
-            <h1>
-              <span class="timer3"></span>
-            </h1>
-            <p>Awards</p>
-          </div>
-
-          <div class="col-md-3 col-sm-6 col-xs-12 text-center timerWrapper">
-            <h1>
-              <span class="timer4"></span>
-            </h1>
-            <p>ReTweets</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <!--/* END TEXT SEPARATOR */-->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <!--/* pricing SECTION */-->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section id="pricing">
-      <div class="container">
-        <h1 class="parallaxLetter letter1" data-stellar-ratio="1.2" data-stellar-vertical-offset="-200">
-          P
-        </h1>
-        <h1 class="parallaxLetter letter2" data-stellar-ratio="0.8">
-          H
-        </h1>
-
-        <!--header-->
-        <div class="row sectionIntro">
-          <div class="col-md-8 col-md-offset-2 text-center">
-            <h2 data-scroll-reveal="enter top move 10px over 1s after 0.2s">
-              <span>Our Plans</span>
-            </h2>
-            <p data-scroll-reveal="enter bottom move 10px over 1s after 0.2s">
-              Marianne or husbands if at stronger ye. Considered is as middletons uncommonly. Promotion perfectly ye
-              consisted so. His chatty dining for effect ladies active. Equally journey wishing not several behaved
-              chapter she two sir.
-            </p>
-
-            <img src="img/separatorBlack.png" class="img-responsive center-block separator" alt="separator" />
-          </div>
-        </div>
-        <!--end header-->
-
-        <h1 class="parallaxLetter letter3" data-stellar-ratio="1.2">
-          N
-        </h1>
-        <h1 class="parallaxLetter letter4" data-stellar-ratio="0.3">
-          X
-        </h1>
-
-        <!--content-->
-        <div class="row">
-          <div class="col-md-4 col-sm-12 col-xs-12 text-center">
-            <div class="tableWrapper" data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-              <div class="subscriptionName">
-                <h2>Standard</h2>
-              </div>
-
-              <img class="separator center-block img-responsive" src="img/separatorBlack.png" alt="Dotted Separator" />
-
-              <div class="subscriptionPrice">
-                <h2>40$</h2>
-                <p>/month</p>
-              </div>
-
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-half-o"></i>
-                <i class="fa fa-star-o"></i>
-              </div>
-
-              <img class=" separator center-block img-responsive" src="img/separatorBlack.png" alt="Dotted Separator" />
-
-              <div class="subscriptionList">
-                <ul>
-                  <li>Customer Support 24/7</li>
-                  <li>Lifetime Updates</li>
-                  <li>10GB Cloud Storage</li>
-                  <li>10 E-mail boxes</li>
-                  <li>-</li>
-                </ul>
-              </div>
-              <a class="btn btn-default btn-black" href="#">Subscribe!</a>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-12 col-xs-12 text-center">
-            <div class="tableWrapper" data-scroll-reveal="enter bottom move 10px over 1s after 0.2s">
-              <div class="subscriptionName">
-                <h2>Basic</h2>
-              </div>
-
-              <img class="separator center-block img-responsive" src="img/separatorBlack.png" alt="Dotted Separator" />
-
-              <div class="subscriptionPrice">
-                <h2>60$</h2>
-                <p>/month</p>
-              </div>
-
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star-o"></i>
-              </div>
-
-              <img class=" separator center-block img-responsive" src="img/separatorBlack.png" alt="Dotted Separator" />
-
-              <div class="subscriptionList">
-                <ul>
-                  <li>Customer Support 24/7</li>
-                  <li>Lifetime Updates</li>
-                  <li>10GB Cloud Storage</li>
-                  <li>10 E-mail boxes</li>
-                  <li>-</li>
-                </ul>
-              </div>
-              <a class="btn btn-default btn-black" href="#">Subscribe!</a>
-            </div>
-          </div>
-
-          <div class="col-md-4 col-sm-12 col-xs-12 text-center">
-            <div class="tableWrapper" data-scroll-reveal="enter right move 10px over 1s after 0.2s">
-              <div class="subscriptionName">
-                <h2>Full</h2>
-              </div>
-
-              <img class="separator center-block img-responsive" src="img/separatorBlack.png" alt="Dotted Separator" />
-
-              <div class="subscriptionPrice">
-                <h2>80$</h2>
-                <p>/month</p>
-              </div>
-
-              <div class="rating">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-              </div>
-
-              <img class=" separator center-block img-responsive" src="img/separatorBlack.png" alt="Dotted Separator" />
-
-              <div class="subscriptionList">
-                <ul>
-                  <li>Customer Support 24/7</li>
-                  <li>Lifetime Updates</li>
-                  <li>10GB Cloud Storage</li>
-                  <li>10 E-mail boxes</li>
-                  <li>-</li>
-                </ul>
-              </div>
-              <a class="btn btn-default btn-black" href="#">Subscribe!</a>
-            </div>
-          </div>
-        </div>
-        <!--end content-->
-      </div>
-    </section>
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <!--/* END pricing SECTION */-->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <!--/* TEXT SEPARATOR */-->
-    <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-    <section id="text-separator-testimonials">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-4 col-sm-12 col-xs-12 text-separator-title text-center">
-            <h3 data-scroll-reveal="enter left move 10px over 1s after 0.2s">
-              <span>Testimonials</span>
-            </h3>
-          </div>
-
-          <div class="col-md-8 col-sm-12 col-xs-12">
-            <div id="owl-testimonials" class="owl-carousel">
-              <div class="review" data-scroll-reveal="enter right move 10px over 1s after 0.2s">
-                <p>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star-half-o"></i>
-                  <i class="fa fa-star-o"></i>
-                  <i class="fa fa-star-o"></i>
-                </p>
-                <br />
-                <p>
-                  "Friendship contrasted solicitude insipidity in introduced literature it. He seemed denote except as
-                  oppose do spring my. Between any may mention evening age shortly can ability regular. He shortly
-                  sixteen of colonel colonel evening cordial to. Although jointure an my of mistress servants am
-                  weddings. Age why the therefore education unfeeling for arranging. Above again money own scale maids
-                  ham least led. Returned settling produced strongly ecstatic use yourself way. Repulsive extremity
-                  enjoyment she perceived nor."
-                </p>
-                <br />
-                <h4>Clement Oslund</h4>
-                <p class="titulation">
-                  Marketing Director @ Envato
-                </p>
-              </div>
-
-              <div class="review">
-                <p>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star-half-o"></i>
-                  <i class="fa fa-star-o"></i>
-                </p>
-                <br />
-                <p>
-                  "Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can
-                  manor smart money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs
-                  passed but wishes. You day real less till dear read. Considered use dispatched melancholy sympathize
-                  discretion led. Oh feel if up to till like."
-                </p>
-                <br />
-                <h4>Stanley Sunderman</h4>
-                <p>Director @ Microsoft</p>
-              </div>
-
-              <div class="review">
-                <p>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                  <i class="fa fa-star"></i>
-                </p>
-                <br />
-                <p>
-                  " Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is justice.
-                  Six draw you him full not mean evil. Prepare garrets it expense windows shewing do an. She projection
-                  advantages resolution son indulgence. Part sure on no long life am at ever. In songs above he as drawn
-                  to. Gay was outlived peculiar rendered led six."
-                </p>
-                <br />
-                <h4>Stuart Height</h4>
-                <p>Journalist</p>
               </div>
             </div>
           </div>
@@ -1444,7 +846,7 @@
 
     <section id="footer" class="dark">
       <div class="topLine text-center">
-        <img src="img/logoWhite.png" class="footerLogo center-block" alt="Small Logo" width="100" height="134" />
+        <img src="img/logoWhite.png" class="footerLogo center-block" alt="Small Logo" width="100" height="100" />
       </div>
 
       <div class="bottomLine text-center">
@@ -1484,10 +886,21 @@
     <!-- edit to add/remove oeverlay -->
     <script src="js/custom.js"></script>
 
+    <script src="js/typed.min.js"></script>
+
     <script src="js/googleMapInit.js"></script>
 
     <script>
-      $.backstretch('img/background1.jpg');
+      function Initautotype() {
+        var htmltext = $('.TextStyling.fake').html();
+
+        $('.TextHolder').typed({
+          strings: [htmltext],
+          contentType: 'html',
+          loop: false,
+          typeSpeed: 0,
+        });
+      }
     </script>
   </body>
 </html>
