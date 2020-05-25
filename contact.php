@@ -16,7 +16,7 @@ $comments = $_POST['comments'];
 if(trim($comments) == '') {
 	echo '<div class="error_message">You forgot to enter your message.</div>';
 	exit();
-} 
+}
 
 if(trim($name) == '') {
 	echo '<div class="error_message">You have to enter a name.</div>';
@@ -29,7 +29,7 @@ if(trim($name) == '') {
 	exit();
 }
 
-$address = "xxx@nowhere.com";
+$address = "no-reply@geospatial.is";
 
 
 $received_subject = 'You\'ve been contacted by ' . $name . '.';
