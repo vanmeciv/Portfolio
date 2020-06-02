@@ -346,7 +346,7 @@ section .container {
   padding: 30px;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: transparent;
+  background-color: #e7e7e7;
   border-color: #e7e7e7;
   -webkit-transition: all 0.5s ease 0.25s;
   transition: all 0.5s ease 0.25s;
