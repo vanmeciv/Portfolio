@@ -29,7 +29,7 @@ if(trim($name) == '') {
 	exit();
 }
 
-$address = "info@geospatial.is";
+$address = "isaacv@uw.edu";
 
 
 $received_subject = 'You\'ve been contacted by ' . $name . '.';
