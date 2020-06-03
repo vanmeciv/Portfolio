@@ -1098,6 +1098,7 @@ p.bold {
 .overlay-close img {
   cursor: pointer;
   margin-top: -150%;
+  z-index: 99999;
 }
 
 .overlay-close {
