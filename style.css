@@ -44,6 +44,7 @@ img {
 }
 section {
   position: relative;
+  z-index: 0;
 }
 
 .container {
@@ -1097,8 +1098,8 @@ p.bold {
 
 .overlay-close img {
   cursor: pointer;
-  margin-top: -150%;
-  z-index: 99999;
+  margin-top: -120%;
+  z-index: 99999
 }
 
 .overlay-close {
