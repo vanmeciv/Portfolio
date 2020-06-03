@@ -1102,6 +1102,10 @@ p.bold {
 
 .overlay-close {
   padding: 30px;
+  position: relative;
+  top: -65%;
+  right: -40%;
+  z-index: 999;
 }
 
 #singlePageIntro .container {
