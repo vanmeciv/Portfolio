@@ -1110,7 +1110,7 @@ p.bold {
 }
 
 #singlePageIntro .container {
-  padding: 100px;
+  padding: 150px; /* changed from 100px to make space for nabvar on top of project overlays */
   padding-bottom: 30px;
 }
 
