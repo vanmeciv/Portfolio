@@ -351,6 +351,7 @@ section .container {
   border-color: #e7e7e7;
   -webkit-transition: all 0.5s ease 0.25s;
   transition: all 0.5s ease 0.25s;
+  z-index: 999;
 }
 
 .NavbarEcommerceBottomWrapper {
@@ -1086,6 +1087,8 @@ p.bold {
   transform: translateY(-100%);
   -webkit-transition: -webkit-transform 0.4s ease-in-out, visibility 0s 0.4s;
   transition: transform 0.4s ease-in-out, visibility 0s 0.4s;
+  margin-top: 5%;
+  z-index: 100;
 }
 
 .overlay-slidedown.open {
