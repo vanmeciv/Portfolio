@@ -2051,9 +2051,13 @@ ol {
 .panel-default {
   border-color: black;
 }
-
+/* Added style for single project back button */
 .buttons {
   padding: 30px;
+}
+
+.projBackButton {
+  margin-left: 90%
 }
 
 .buttons button {
