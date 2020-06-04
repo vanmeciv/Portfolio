@@ -1069,7 +1069,7 @@ p.bold {
   position: fixed;
   width: 100%;
   height: 100%;
-  top: 0;
+  top: 5%;
   left: 0;
   background: white;
   /* z-index: 3000; */
@@ -1110,7 +1110,7 @@ p.bold {
 }
 
 #singlePageIntro .container {
-  padding: 150px; /* changed from 100px to make space for nabvar on top of project overlays */
+  padding: 100px;
   padding-bottom: 30px;
 }
 
