@@ -17,6 +17,11 @@ a {
   text-decoration: none;
 }
 
+.quote {
+  color: #e7e7e7;
+  text-decoration: none;
+}
+
 a:hover,
 a:focus {
   color: #626262;
