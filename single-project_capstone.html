@@ -49,14 +49,35 @@
       <section id="singlePageIntro">
         <div class="container">
           <div class="row text-center">
-            <h1>T GIS 505: Lab 4</h1>
+            <h1>T GIS 508: Capstone</h1>
             <p>
-              JavaScript/Python
+              Javascript/Python
             </p>
             <br /><br />
-            <a class="btn btn-default btn-black" href="https://hockeyrink.geospatial.is/hexbin/">
+            <!-- <a class="btn btn-default btn-black" href="https://hockeyrink.geospatial.is/hexbin/">
               Live Preview
-            </a>
+            </a> -->
+            <!-- scrolling="no" -->
+            <select id="selector" onchange="window.open(this.options[this.selectedIndex].value);">
+                <option value="0">Select Game</option>
+                <option value="https://hockeyrink.geospatial.is/finals/game1">Game 1</option>
+                <option value="https://hockeyrink.geospatial.is/finals/game2">Game 2</option>
+                <option value="https://hockeyrink.geospatial.is/finals/game3">Game 3</option>
+            		<option value="https://hockeyrink.geospatial.is/finals/game4">Game 4</option>
+            		<option value="https://hockeyrink.geospatial.is/finals/game5">Game 5</option>
+            		<option value="https://hockeyrink.geospatial.is/finals/game6">Game 6</option>
+            		<option value="https://hockeyrink.geospatial.is/finals/game7">Game 7</option>
+            </select>
+            <div>
+                <iframe src="about:blank" frameborder="0" id="iframe" scrolling="no"></iframe>
+            </div>
+            <script>
+            $(document).ready(function(){
+                $("#selector").change(function(){
+                    $("#iframe").attr("src", $(this).val());
+                });
+            });
+            </script>
             <div class="clearfix"></div>
             <img class="center-block img-responsive separator" src="img/separatorBlack.png" alt="Separator" />
           </div>
@@ -74,12 +95,12 @@
                 <div id="post">
                   <div id="caption">
                     <p class="excerpt">
-                      While maps are obviously an incredibly powerful tool of data visualization, graphs and charts also have a place in geospatial communication. In this lab, we learned how to use an open source JavaScript library called Chart.js to make dynamic, responsive, accessible charts for web and mobile.
+                      lorem ipsum
 
                     </p>
 
                     <p class="excerpt">
-                       Chart.js is one of many different options that exist for making charts and graphs with JavaScript. Other common libraries include D3.js and Chartist.js. While each has its own advantages, Chart.js was chosen for this lab because it is relatively easy to use, has good documentation, and is an overall great option for simple charts and graphs.
+                       lorem ipsum
                     </p>
                   </div>
                 </div>
@@ -93,7 +114,7 @@
                     <li>
                       <i class="fa fa-clock-o"></i>&nbsp;&nbsp;&nbsp;
                       <p class="bold">
-                        17 March 2020
+                        06 August 2020
                       </p>
                     </li>
 
@@ -116,7 +137,7 @@
 
             <div class="row singleImageWrapper" data-scroll-reveal="enter top move 30px over 1s after 0.2s">
               <div class="col-md-12">
-                <img src="img/gallery/2.jpg" alt="single project Info" class="img-responsive center-block" />
+                <img src="img/gallery/8.jpg" alt="single project Info" class="img-responsive center-block" />
               </div>
             </div>
 
