@@ -6,6 +6,7 @@
     triggerBttnFive = document.getElementById('trigger-overlay-five'),
     triggerBttnSix = document.getElementById('trigger-overlay-six'),
     triggerBttnSeven = document.getElementById('trigger-overlay-seven'),
+    triggerBttnEight = document.getElementById('trigger-overlay-eight'),
     overlay = document.querySelector('div.overlay'),
     closeBttn = overlay.querySelector('a.overlay-close');
   (transEndEventNames = {
@@ -61,6 +62,7 @@
   triggerBttnFive.addEventListener('click', toggleOverlay);
   triggerBttnSix.addEventListener('click', toggleOverlay);
   triggerBttnSeven.addEventListener('click', toggleOverlay);
+  triggerBttnEight.addEventListener('click', toggleOverlay);
 
   return false;
 })();
