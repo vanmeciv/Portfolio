@@ -1107,10 +1107,10 @@ p.bold {
 }
 
 .overlay-close {
-  padding: 30px;
+  padding: 15%;
   position: relative;
   top: -65%;
-  right: -40%;
+  /* right: -40%; */
   z-index: 999;
 }
 
