@@ -7,7 +7,7 @@
 - Project 5: <a href="https://geospatial.is/single-project5.html" target="_blank"/> Georeferenced Ice Rink Hosted through Mapbox alongside NHL API Data</a>
 - Project 6: <a href="https://geospatial.is/single-project6.html" target="_blank"/> Javascript/Python Mapbox Icerink Displaying ALL 2019 Stanley Cup Events via Static Hexbin</a>
 - Project 7: <a href="https://geospatial.is/single-project7.html" target="_blank"/> Charts.jsExample v2.2 Displaying Major Sports Revenue Trends</a>
-- Capstone Project: <a href="https://geospatial.is/single-project8.html" target="_blank"/> Capstone</a>
+- Capstone Project: <a href="https://geospatial.is/single-project8.html" target="_blank"/> Capstone Displaying Dynamically Filtered Events from 2019 7-game Stanley Cup Series</a>
 
 
 ## Contact :speech_balloon:
