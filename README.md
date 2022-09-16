@@ -1,4 +1,4 @@
-# Portfolio Projects
+# M.Sc. Geospatial Technologies Projects
 
 - Project 1: <a href="https://geospatial.is/single-project1.html" target="_blank"/> HTML/JavaScript Based Browser GPS Request</a>
 - Project 2: <a href="https://geospatial.is/single-project2.html" target="_blank"/> Charts.js Example v1 Use Cases (Line, Mixed, & Radar) </a>
@@ -9,6 +9,9 @@
 - Project 7: <a href="https://geospatial.is/single-project7.html" target="_blank"/> Charts.jsExample v2.2 Displaying Major Sports Revenue Trends</a>
 - Capstone Project: <a href="https://geospatial.is/single-project8.html" target="_blank"/> Capstone Displaying Dynamically Filtered Events from 2019 7-game Stanley Cup Series</a>
 
+# M.Sc. Cybersecurity & Leadership Projects
+
+- Executive Interviews: <a href="https://charts.geospatial.is/" target="_blank"/> Charts.js Example of Radar Data</a>
 
 ## Contact :speech_balloon:
 
