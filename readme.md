@@ -3,8 +3,11 @@
 - Project 1: <a href="https://geospatial.is/single-project1.html" target="_blank"/> Browser-based Geolocation Request (HTML/JavaScript)</a>
   - <a href="https://webapp.geospatial.is" target="_blank"/> Web URL</a>
   - <a href="https://github.com/vanmeciv/webapp" target="_blank"/> Repo </a>
-- Project 2: <a href="https://geospatial.is/single-project2.html" target="_blank"/> Use Cases (Charts.js Example v1 - Line, Mixed, & Radar) </a>
-- Project 3: <a href="https://geospatial.is/single-project3.html" target="_blank"/> Python 3.x Libraries (Geopy, Numpy, Plotly, and Pandas) & Mapbox </a>
+- Project 2: 
+  - <a href="https://geospatial.is/single-project2.html" target="_blank"/> Web URL (Charts.js Example v1 - Line, Mixed, & Radar) </a>
+- Project 3: 
+  - <a href="https://geospatial.is/single-project3.html" target="_blank"/> Python 3.x Libraries (Geopy, Numpy, Plotly, and Pandas) & Mapbox </a>
+  - <a href="https://github.com/vanmeciv/icerinks/blob/master/dynamic/py/mapbox_icerink.ipynb" target="_blank"/> Python 3.x Repo (Geopy, Numpy, Plotly, and Pandas) & Mapbox </a>
 - Project 4: <a href="https://geospatial.is/single-project4.html" target="_blank"/> Mixed Proportion Charting Vulnerable Populations versus Areas of World With No Home Hand Washing Facilities (Charts.js Example v2.1)</a>
 - Project 5: <a href="https://geospatial.is/single-project5.html" target="_blank"/> ESRI Georeferenced Ice Rink Hosted through Mapbox displaying NHL API Data</a>
   - <a href="https://hockeyrink.geospatial.is/dynamic/" target="_blank"/> Web URL</a>
@@ -13,7 +16,9 @@
   - <a href="https://hockeyrink.geospatial.is/hexbin/" target="_blank"/> Web URL</a>
   - <a href="https://github.com/vanmeciv/icerinks/tree/master/hexbin" target="_blank"/> Repo </a>
 - Project 7: <a href="https://geospatial.is/single-project7.html" target="_blank"/> Displaying Major Sports Revenue Trends (Charts.js example v2.2)</a>
-- Capstone Project: <a href="https://geospatial.is/single-project_capstone.html" target="_blank"/> Capstone Displaying Dynamically Filtered Events from 2019 7-game Stanley Cup Series</a>
+- Capstone Project: 
+  - <a href="https://geospatial.is/single-project_capstone.html" target="_blank"/> Web URL</a>
+  - <a href="https://github.com/vanmeciv/icerinks/tree/master/finals" target="_blank"/> Repo </a>
 
 # M.Sc. Cybersecurity & Leadership Projects
 
