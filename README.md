@@ -8,6 +8,26 @@
 - Project 3: 
   - <a href="https://geospatial.is/single-project3.html" target="_blank"/> Web URL (Python 3.x - Geopy, Numpy, Plotly, Pandas & Mapbox) </a>
   - <a href="https://github.com/vanmeciv/icerinks/blob/master/dynamic/py/mapbox_icerink.ipynb" target="_blank"/> Repo  (Python 3.x - Geopy, Numpy, Plotly, Pandas & Mapbox) </a>
+```python
+# Begin Data Extraction
+import requests, json, pandas as pd, numpy as np
+from geopy import geocoders
+from geopy.geocoders import Nominatim
+# NHL API GET REQUEST
+r = requests.get('https://statsapi.web.nhl.com/api/v1/game/##########/feed/live')
+# See Repo link for redacted code
+coordinates_df.to_csv('events.csv', header = True, mode = 'a')
+```
+```python
+#Begin Data Compilation & Plot Events
+import plotly.graph_objects as go, pandas as pd, plotly.express as px
+mapbox_access_token = open("mapbox_token.txt").read() # Create a local file with mapbox token
+# Read CSV F
+df = pd.read_csv('events.csv')
+# See Repo link for redacted code
+fig.show()
+```
+<img src="https://geospatial.is/img/project3-background3.jpg" alt="Image Output Example" width=40% height=40%>
 - Project 4: <a href="https://geospatial.is/single-project4.html" target="_blank"/> Mixed Proportion Charting Vulnerable Populations versus Areas of World With No Home Hand Washing Facilities (Charts.js Example v2.1)</a>
 - Project 5: <a href="https://geospatial.is/single-project5.html" target="_blank"/> ESRI Georeferenced Ice Rink Hosted through Mapbox displaying NHL API Data</a>
   - <a href="https://hockeyrink.geospatial.is/dynamic/" target="_blank"/> Web URL</a>
@@ -20,6 +40,10 @@
 - Capstone Project: 
   - <a href="https://geospatial.is/single-project_capstone.html" target="_blank"/> Web URL</a>
   - <a href="https://github.com/vanmeciv/icerinks/tree/master/finals" target="_blank"/> Repo </a>
+```python
+s = "Python syntax highlighting"
+print s
+```
 
 # M.Sc. Cybersecurity & Leadership Projects
 
