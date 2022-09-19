@@ -6,8 +6,8 @@
 - Project 2: 
   - <a href="https://geospatial.is/single-project2.html" target="_blank"/> Web URL (Charts.js Example v1 - Line, Mixed, & Radar) </a>
 - Project 3: 
-  - <a href="https://geospatial.is/single-project3.html" target="_blank"/> Python 3.x Libraries (Geopy, Numpy, Plotly, and Pandas) & Mapbox </a>
-  - <a href="https://github.com/vanmeciv/icerinks/blob/master/dynamic/py/mapbox_icerink.ipynb" target="_blank"/> Python 3.x Repo (Geopy, Numpy, Plotly, and Pandas) & Mapbox </a>
+  - <a href="https://geospatial.is/single-project3.html" target="_blank"/> Web URL (Python 3.x - Geopy, Numpy, Plotly, Pandas & Mapbox) </a>
+  - <a href="https://github.com/vanmeciv/icerinks/blob/master/dynamic/py/mapbox_icerink.ipynb" target="_blank"/> Repo  (Python 3.x - Geopy, Numpy, Plotly, Pandas & Mapbox) </a>
 - Project 4: <a href="https://geospatial.is/single-project4.html" target="_blank"/> Mixed Proportion Charting Vulnerable Populations versus Areas of World With No Home Hand Washing Facilities (Charts.js Example v2.1)</a>
 - Project 5: <a href="https://geospatial.is/single-project5.html" target="_blank"/> ESRI Georeferenced Ice Rink Hosted through Mapbox displaying NHL API Data</a>
   - <a href="https://hockeyrink.geospatial.is/dynamic/" target="_blank"/> Web URL</a>
