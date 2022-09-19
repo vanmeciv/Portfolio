@@ -15,7 +15,8 @@
 - Project 6: <a href="https://geospatial.is/single-project6.html" target="_blank"/> Mapbox hosted Icerink Displaying ALL 2019 Stanley Cup Events via Static Hexbin (HTML/Javascript/Python)</a>
   - <a href="https://hockeyrink.geospatial.is/hexbin/" target="_blank"/> Web URL</a>
   - <a href="https://github.com/vanmeciv/icerinks/tree/master/hexbin" target="_blank"/> Repo </a>
-- Project 7: <a href="https://geospatial.is/single-project7.html" target="_blank"/> Displaying Major Sports Revenue Trends (Charts.js example v2.2)</a>
+- Project 7:
+  - <a href="https://geospatial.is/single-project7.html" target="_blank"/> Web URL (Charts.js Example v2.2 - Displaying Major Sports Revenue Trends)</a>
 - Capstone Project: 
   - <a href="https://geospatial.is/single-project_capstone.html" target="_blank"/> Web URL</a>
   - <a href="https://github.com/vanmeciv/icerinks/tree/master/finals" target="_blank"/> Repo </a>
