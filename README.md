@@ -29,7 +29,7 @@ df = pd.read_csv('events.csv')
 # See Repo link for redacted code
 fig.show()
 ```
-<img src="https://geospatial.is/img/project3-background3.jpg" alt="Image Output Example" width=40% height=40%>
+<img src="/img/project3-background3.jpg" alt="Image Output Example" width=40% height=40%>
 
 - Project 4: <a href="https://geospatial.is/single-project4.html" target="_blank"/> Mixed Proportion Charting Vulnerable Populations versus Areas of World With No Home Hand Washing Facilities (Charts.js Example v2.1)</a>
 
