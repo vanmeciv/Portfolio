@@ -13,7 +13,9 @@
   - <a href="https://hockeyrink.geospatial.is/hexbin/" target="_blank"/> Web URL</a>
   - <a href="https://github.com/vanmeciv/icerinks/tree/master/hexbin" target="_blank"/> Repo </a>
 - Project 7: <a href="https://geospatial.is/single-project7.html" target="_blank"/> Displaying Major Sports Revenue Trends (Charts.js example v2.2)</a>
-- Capstone Project: <a href="https://geospatial.is/single-project_capstone.html" target="_blank"/> Capstone Displaying Dynamically Filtered Events from 2019 7-game Stanley Cup Series</a>
+- Capstone Project: 
+  - <a href="https://geospatial.is/single-project_capstone.html" target="_blank"/> Web URL</a>
+  - <a href="https://github.com/vanmeciv/icerinks/tree/master/finals" target="_blank"/> Repo </a>
 
 # M.Sc. Cybersecurity & Leadership Projects
 
