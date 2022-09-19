@@ -11,7 +11,7 @@
   - <a href="https://geospatial.is/single-project3.html" target="_blank"/> Web URL (Python 3.x - Geopy, Numpy, Plotly, Pandas & Mapbox) </a>
   - <a href="https://github.com/vanmeciv/icerinks/blob/master/dynamic/py/mapbox_icerink.ipynb" target="_blank"/> Repo  (Python 3.x - Geopy, Numpy, Plotly, Pandas & Mapbox) </a>
 ```python
-# Begin Data Extraction
+# Data Extraction
 import requests, json, pandas as pd, numpy as np
 from geopy import geocoders
 from geopy.geocoders import Nominatim
@@ -21,7 +21,7 @@ r = requests.get('https://statsapi.web.nhl.com/api/v1/game/##########/feed/live'
 coordinates_df.to_csv('events.csv', header = True, mode = 'a')
 ```
 ```python
-#Begin Data Compilation & Plot Events
+# Data Compilation & Plot Events
 import plotly.graph_objects as go, pandas as pd, plotly.express as px
 mapbox_access_token = open("mapbox_token.txt").read() # Create a local file with mapbox token
 # Read CSV F
