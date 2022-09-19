@@ -3,8 +3,10 @@
 - Project 1: <a href="https://geospatial.is/single-project1.html" target="_blank"/> Browser-based Geolocation Request (HTML/JavaScript)</a>
   - <a href="https://webapp.geospatial.is" target="_blank"/> Web URL</a>
   - <a href="https://github.com/vanmeciv/webapp" target="_blank"/> Repo </a>
+
 - Project 2: 
   - <a href="https://geospatial.is/single-project2.html" target="_blank"/> Web URL (Charts.js Example v1 - Line, Mixed, & Radar) </a>
+
 - Project 3: 
   - <a href="https://geospatial.is/single-project3.html" target="_blank"/> Web URL (Python 3.x - Geopy, Numpy, Plotly, Pandas & Mapbox) </a>
   - <a href="https://github.com/vanmeciv/icerinks/blob/master/dynamic/py/mapbox_icerink.ipynb" target="_blank"/> Repo  (Python 3.x - Geopy, Numpy, Plotly, Pandas & Mapbox) </a>
@@ -28,22 +30,23 @@ df = pd.read_csv('events.csv')
 fig.show()
 ```
 <img src="https://geospatial.is/img/project3-background3.jpg" alt="Image Output Example" width=40% height=40%>
+
 - Project 4: <a href="https://geospatial.is/single-project4.html" target="_blank"/> Mixed Proportion Charting Vulnerable Populations versus Areas of World With No Home Hand Washing Facilities (Charts.js Example v2.1)</a>
+
 - Project 5: <a href="https://geospatial.is/single-project5.html" target="_blank"/> ESRI Georeferenced Ice Rink Hosted through Mapbox displaying NHL API Data</a>
   - <a href="https://hockeyrink.geospatial.is/dynamic/" target="_blank"/> Web URL</a>
   - <a href="https://github.com/vanmeciv/icerinks" target="_blank"/> Repo </a>
+
 - Project 6: <a href="https://geospatial.is/single-project6.html" target="_blank"/> Mapbox hosted Icerink Displaying ALL 2019 Stanley Cup Events via Static Hexbin (HTML/Javascript/Python)</a>
   - <a href="https://hockeyrink.geospatial.is/hexbin/" target="_blank"/> Web URL</a>
   - <a href="https://github.com/vanmeciv/icerinks/tree/master/hexbin" target="_blank"/> Repo </a>
+
 - Project 7:
   - <a href="https://geospatial.is/single-project7.html" target="_blank"/> Web URL (Charts.js Example v2.2 - Displaying Major Sports Revenue Trends)</a>
+
 - Capstone Project: 
   - <a href="https://geospatial.is/single-project_capstone.html" target="_blank"/> Web URL</a>
   - <a href="https://github.com/vanmeciv/icerinks/tree/master/finals" target="_blank"/> Repo </a>
-```python
-s = "Python syntax highlighting"
-print s
-```
 
 # M.Sc. Cybersecurity & Leadership Projects
 
