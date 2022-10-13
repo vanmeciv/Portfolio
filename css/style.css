@@ -777,7 +777,8 @@ p.bold {
 .textOverlay {
   padding-bottom: 100px;
   padding-top: 100px;
-  margin-left: -200px;
+  /* Removing for "Who am I" responsive section*/
+  /* margin-left: -200px; */
   z-index: 6;
 }
 
@@ -897,7 +898,7 @@ p.bold {
 .portfolioIntro {
   position: relative;
   z-index: 2;
-  background: url('img/portfolioIntro.jpg') no-repeat center center;
+  background: url('../img/portfolioIntro.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -1328,7 +1329,7 @@ p.bold {
 .introServiceBox {
   position: relative;
   z-index: 2;
-  background: url('img/backgroundService.jpg') no-repeat center center;
+  background: url('../img/backgroundService.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -3700,7 +3701,7 @@ h2.AnimatedHeadline b i em {
 }
 
 .IntroBox1 .BackgroundImage {
-  background: url('img/portfolioIntro.jpg') no-repeat center center;
+  background: url('portfolioIntro.jpg') no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
