@@ -29,7 +29,7 @@ html{
 }
 
 .wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{
-	background:#FFFFFF url(../images/fieldbg.gif) repeat-x top;
+	background:#FFFFFF url(../img/fieldbg.gif) repeat-x top;
 	border:1px solid Background color 'FFFFFF url(../images/fieldbg.gif) repeat-x top' is not a hex color value.#;
 	border-bottom:1px solid Background color 'FFFFFF url(../images/fieldbg.gif) repeat-x top' is not a hex color value.#;
 	border-right:1px solid Background color 'FFFFFF url(../images/fieldbg.gif) repeat-x top' is not a hex color value.#;
@@ -621,4 +621,3 @@ a.powertiny b, a.powertiny em{
 }
 
 /* - - - Custom Theme - - - */
-

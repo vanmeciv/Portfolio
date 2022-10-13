@@ -756,7 +756,7 @@ p.bold {
 }
 
 .whiteOverlay {
-  background: transparent url('img/gradient.png') bottom right repeat-y;
+  background: transparent url('../img/gradient.png') bottom right repeat-y;
   bottom: 0;
   height: 500px;
   right: 270px;
