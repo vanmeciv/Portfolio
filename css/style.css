@@ -849,7 +849,7 @@ p.bold {
 
 .portfolioIntro h2 span {
   padding: 25px 50px;
-  border: solid 10px #fff;
+  border: solid 10px #000;
 }
 
 .portfolioFilters {
