@@ -57,8 +57,8 @@ section {
 }
 
 section .container {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 150px;
+  padding-bottom: 100px;
 }
 
 .row {
@@ -790,7 +790,7 @@ p.bold {
   background-color: white;
 }
 #about .container {
-  padding-top: 200px;
+  padding-top: 75px;
 }
 
 .aboutIconWrapper {
