@@ -36,6 +36,12 @@ img {
   user-select: none;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .valign {
   position: relative;
   top: 50%;
