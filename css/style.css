@@ -942,11 +942,6 @@ p.bold {
   padding-bottom: 100px;
 }
 
-.gallery {
-  max-width: 100%;
-  background-image: url('../img/gallery/countour_gallery_bg.png')
-}
-
 .gallery-ecommerce {
   max-width: 100%;
 }
@@ -995,8 +990,10 @@ p.bold {
 }
 
 .gallery {
-  background: #4c4c4c;
+  /* background: #4c4c4c; */
   min-height: 500px;
+  background-image: url('../img/gallery/countour_gallery_bg.png')
+  max-width: 100%;
 }
 
 #portfolio .container .gallery {
