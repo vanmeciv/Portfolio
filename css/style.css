@@ -860,7 +860,8 @@ p.bold {
 }
 
 .portfolioFilters {
-  background-color: #1d1d1d;
+  /* background-color: #1d1d1d; */
+  background-image: url('../img/gallery/countour_gallery_bg.png');
 }
 
 .grayBackground {
@@ -992,7 +993,7 @@ p.bold {
 .gallery {
   /* background: #4c4c4c; */
   min-height: 500px;
-  background-image: url('../img/gallery/countour_gallery_bg.png')
+  background-image: url('../img/gallery/countour_gallery_bg.png');
   max-width: 100%;
 }
 
@@ -1587,7 +1588,8 @@ textarea {
 }
 
 .topLine {
-  background: #282828;
+  /* background: #282828; */
+  background-image: url('../img/gallery/countour_gallery_bg.png');
   padding: 50px;
 }
 
