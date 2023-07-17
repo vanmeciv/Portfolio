@@ -944,6 +944,7 @@ p.bold {
 
 .gallery {
   max-width: 100%;
+  background-image: url('../img/gallery/countour_gallery_bg.png')
 }
 
 .gallery-ecommerce {
